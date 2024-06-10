@@ -1,0 +1,53 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 150px 85px;
+
+}
+.skills-intro h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 32px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: #EBF0F2B7;
+    width: 15%;
+    transition: transform 0.3s ease;
+}
+
+.skills-card:hover {
+    transform: scale(1.05);
+}
+
+.skills-card li {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    
+}
+
+.skills-card h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 23px;
+}
+
+.skills-card img {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,60 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 5px 80px 0 #0000001a;
+}
+.navbar-image {
+    margin-left: -100px;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.5px;
+    color: black;
+
+}
+
+.navbar-links a:focus {
+    color: #065f40;
+    
+}
+.contact-button {
+    text-decoration: none;
+    color: black;
+    background-color: #f9f9f9;
+    border: 1px solid #065f40;
+    border-radius: 5px;
+    padding: 14px 32px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-right: -100px;
+}
+
+.contact-button:hover {
+    text-decoration: none;
+    background-color: #065f40;
+    color: white;
+    transition-behavior: normal;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: background-color
+}

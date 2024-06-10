@@ -1,0 +1,52 @@
+.herosection-container {
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    height: 400px;
+    padding: 150px 85px 85px 85px;
+    background-color: #EBF0F2B7;
+    
+}
+
+.herosection-content {
+    height: 50%;
+    width: 60%;
+    font-family: Roboto, sans-serif;
+}
+
+.herosection-content h3 {
+    font-size: 21px;
+}
+
+.herosection-content h2 {
+    font-size: 68px;
+    margin: 0;
+    color: #065F40; 
+}
+
+.herosection-content p {
+    font-size: 21px;
+    color: #4A4A4A;
+    margin-top: 20px;
+}
+.herosection-button {
+    width: 170px;
+    border: 1px solid;
+    border-radius: 5px;;
+    font-size: 16px;
+    color:#FFFFFF;
+    background-color: #065F40;
+    padding: 14px 32px;
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+}
+
+.herosection-button:hover {
+    background-color: #FFFFFF;
+    color: #065F40;
+    transition-behavior: normal;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: background-color
+}
