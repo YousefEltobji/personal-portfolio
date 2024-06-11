@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import HeroSection from './HeroSection';
 import SkillsSection from './SkillsSection';
 import AboutMe from './AboutMe';
+import MyProjects from './MyProjects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <AboutMe />
       <SkillsSection />
+      <MyProjects />
     </div>
   );
 }

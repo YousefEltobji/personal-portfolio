@@ -1,35 +1,32 @@
 import React from "react";
-import 'MyProjects.css';
-
+import './MyProjects.css';
+import { FaGithub } from "react-icons/fa";
+import { MdConstruction } from "react-icons/md";
+import { FaArrowTrendUp } from "react-icons/fa6";
 
 
 const MyProjects = () => {
+
     return (
         <div>
             <div className="project-container">
                 <div className="project-intro">
                     <h2>My Projects</h2>
+                    <a target="_blank" href="https://github.com/YousefEltobji"><button><span ><FaGithub size={35}/></span>Visit My GitHib</button></a>
                 </div>
                 <div className="project-section">
                     <div className="project-card">
-                        <img src={projectImg} alt="project jpg"></img>
-                        <h3>Project 1</h3>
+                        <span id="projectlogo"><MdConstruction size={150}/></span>
+                        <h3>RESBuilder (Coming soon)</h3>
+                        <p>RESBuilder is a dynamic web application built using ReactJS that allows users to upload and receive tailored feedback on their resumes, enhancing job application success.</p>
+                        <p>Technologies used for this project include:</p>
                         <ul>
+                            <li>React.JS</li>
                             <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>C++</li>
-                            <li>ReactJS</li>
-                            <li>HTML</li>
-                        </ul>
-                    </div>
-                    <div className="project-card">
-                        <h3>Project 2</h3>
-                        <ul>
-                            <li>Git</li>
-                            <li>GitHub</li>
-                            <li>RESTful APIs</li>
                             <li>CSS</li>
+                            <li>OpenAI API</li>
                         </ul>
+                        <a><button className="project-button">View Project <span id="buttonlogo"><FaArrowTrendUp size={22}/></span></button></a>
                     </div>
                 </div>
             </div>

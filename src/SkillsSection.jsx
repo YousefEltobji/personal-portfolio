@@ -1,6 +1,7 @@
 import React from "react";
 import "./SkillsSection.css";
-import codingImg from "./images/coding-img.png";
+import { FaRandom } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 
 const SkillsSection = () => {
     return (
@@ -10,7 +11,7 @@ const SkillsSection = () => {
             </div>
             <div className="skills-section">
                 <div className="skills-card">
-                    <img src={codingImg} alt="coding jpg"></img>
+                    <span id="skillslogo"><FaCode size={45} /></span>
                     <h3>Languages</h3>
                     <ul>
                         <li>JavaScript</li>
@@ -21,6 +22,7 @@ const SkillsSection = () => {
                     </ul>
                 </div>
                 <div className="skills-card">
+                    <span id="skillslogo"><FaRandom size={45}/></span>
                     <h3>Other Skills</h3>
                     <ul>
                         <li>Git</li>
