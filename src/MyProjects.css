@@ -126,6 +126,32 @@
     color: #065F40;
 }
 
-#buttonlogo {
-    /* margin-left: 25px; */
+@media (max-width: 1199px) { /* Tablet */
+    .project-container{
+        margin-top: 200px;
+    }
+    .project-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card {
+        width: 60%; 
+    }
+    .project-button {
+        width: 50%; 
+    }
+
+    .project-intro a span{
+        width: 100%; 
+    }
+
+    .project-intro a button {
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .project-card {
+        width: 90%; 
+    }
 }

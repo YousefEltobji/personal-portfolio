@@ -35,3 +35,35 @@
     height: 550px;
     border-radius: 50%;
 }
+
+@media (max-width: 1199px) { /* Tablet */
+    .aboutme-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 50px;
+    }
+    .aboutme-content h1, .aboutme-content p {
+        flex-direction: row;
+        text-align: center; 
+        width: 100%;
+    }
+    .aboutme-content p {
+        font-size: 20px;
+    
+    }
+
+    #mobile-delete {
+        display: none; 
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .aboutme-container img {
+        width: 90%; 
+        height: auto; 
+    }
+
+    #mobile-delete {
+        display: none; 
+    }
+}

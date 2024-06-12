@@ -12,7 +12,7 @@ const MyProjects = () => {
             <div className="project-container">
                 <div className="project-intro">
                     <h2>My Projects</h2>
-                    <a target="_blank" href="https://github.com/YousefEltobji"><button><span ><FaGithub size={35}/></span>Visit My GitHib</button></a>
+                    <a target="_blank" href="https://github.com/YousefEltobji"><button><span><FaGithub size={35}/></span><p id="mobile-delete">Visit My GitHib</p></button></a>
                 </div>
                 <div className="project-section">
                     <div className="project-card">

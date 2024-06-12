@@ -50,3 +50,28 @@
     transition-delay: 0s;
     transition-property: background-color
 }
+
+@media (max-width: 1199px) { /* Tablet */
+    .herosection-container {
+        padding: 100px 50px; 
+    }
+    .herosection-content {
+        width: 80%; 
+    }
+    .herosection-content h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .herosection-container {
+        margin-top: 50px;
+        padding: 50px 20px;
+    }
+    .herosection-content h2 {
+        font-size: 32px; 
+    }
+    .herosection-content p {
+        font-size: 18px; 
+    }
+}

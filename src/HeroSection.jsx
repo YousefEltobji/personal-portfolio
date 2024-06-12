@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
     return ( 
@@ -8,7 +9,7 @@ const HeroSection = () => {
                 <h3>Hello, my name is Yousef Eltobji</h3>
                 <h2>I'm a Computer Science Student</h2>
                 <p>I'm currently attending Wayne State University and seeking an internship</p>
-                <button className="herosection-button" href="">View Projects</button>
+                <Link to="project-container" smooth={true}><button className="herosection-button" >View Projects</button></Link>
             </div>
         </div>
     );
