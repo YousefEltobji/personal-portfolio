@@ -51,7 +51,7 @@ function Navbar() {
                         onFocus={() => setFocusedSet('projects')}>Projects</Link></li>
                 </ul>
             </div>
-            <a target="_blank" href="https://www.linkedin.com/in/yousefeltobji">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yousefeltobji">
                 <button className="contact-button">Contact Me</button>
             </a>
         </div>
