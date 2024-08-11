@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
     <div>
         <div className="aboutme-container">
-            <img src={profilePic} ></img>
+            <img src={profilePic} alt="picture of Yousef Eltobji"></img>
             <div className="aboutme-content">
                 <h1>About Me</h1>
                 <p>Hello, my name is Yousef Eltobji and I am a student at Wayne State University. I am currently working towards a Bachelor's degree in Software Engineering and am passionate about pursuing a career in this field. I am confident that my knowledge and experience in software engineering will be an asset to any organization.</p>

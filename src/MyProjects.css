@@ -100,9 +100,15 @@
     border-radius: 5px;
     padding: 14px 32px;
     margin-top: 10px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .project-button:hover {
+    text-decoration: none;
     background-color: #FFFFFF;
     color: #065F40;
     border: 1px solid #065F40;

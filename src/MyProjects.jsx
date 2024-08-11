@@ -1,7 +1,7 @@
 import React from "react";
 import './MyProjects.css';
 import { FaGithub } from "react-icons/fa";
-import { MdConstruction } from "react-icons/md";
+//import { MdConstruction } from "react-icons/md";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import RESBuilderHomepageImg from "./images/RESBuilder-Homepage.png";
 
@@ -16,7 +16,7 @@ const MyProjects = () => {
                 </div>
                 <div className="project-section">
                     <div className="project-card">
-                        <img id="projectlogo" src={RESBuilderHomepageImg} alt="RESBuilder Homepage Image"/>
+                        <img id="projectlogo" src={RESBuilderHomepageImg} alt=""/>
                         <h3>RESBuilder</h3>
                         <p>RESBuilder is a dynamic web application built using ReactJS that allows users to upload and receive tailored feedback on their resumes, enhancing job application success.</p>
                         <p>Technologies used for this project include:</p>
@@ -27,7 +27,7 @@ const MyProjects = () => {
                             <li>OpenAI API</li>
                             <li>Express.JS</li>
                         </ul>
-                        <a><button className="project-button">View Project <span id="buttonlogo"><FaArrowTrendUp size={22}/></span></button></a>
+                        <a href="https://resbuilderapp.netlify.app/" target="_blank" rel="noreferrer"><button className="project-button">View Project<span id="buttonlogo"><FaArrowTrendUp size={22}/></span></button></a>
                     </div>
                 </div>
             </div>
